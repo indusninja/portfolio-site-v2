@@ -4,9 +4,10 @@ tagline: "Project Portfolio"
 description: "I've worked on many projects. Here's a showcase of some..."
 keywords: "Projects, Code, Game, Techonology"
 email: "prakash@prakashprasad.com"
-linkedin: "http://dk.linkedin.com/in/prakashprasad/"
+linkedin: "https://www.linkedin.com/in/prakashprasad/"
 twitter: "https://twitter.com/indusninja/"
 github: "https://github.com/indusninja/"
+youtube: "https://www.youtube.com/user/prakashf1/"
 
 # Site config
 port: 5000
