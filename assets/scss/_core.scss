@@ -56,7 +56,7 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 img {
@@ -124,6 +124,12 @@ dl {
 			min-width: 10rem;
 		}
 	}
+}
+
+.readable-text {
+	font-size: 0.8em;
+  	text-indent: 3em;
+	list-style-type: solid;
 }
 
 table {

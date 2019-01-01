@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>{{ site.author }} / {{ page.project.title }}</title>
 	<meta name="author" content="{{ site.author }}">
@@ -7,6 +8,7 @@
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
 </head>
+
 <body>
 	{% include header.html %}
 	<main class="content">
@@ -15,15 +17,33 @@
 				<article>
 					<span class="h2">Project Title</span>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{
+							page.project.title }}</a>
 					</h1>
+
 					<span class="h2">Description</span>
-					{{ page.content }}
+					<span class="readable-text">
+						{{ page.description.content }}
+					</span>
+
+					<span class="h2">Challenges</span>
+					<span class="readable-text">
+						{{ page.challenge.content }}
+					</span>
+
+					<span class="h2">Features</span>
+					<ul class="readable-text">
+						{% for feature in page.features %}
+						<li>{{ feature.feature }}</li>
+						{% endfor %}
+					</ul>
+
 					<div class="project-meta">
 						<span class="h2">Technologies</span>
 						<p>{{ page.project.tech }}</p>
 						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
+						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{
+								page.agency.title }}</a></p>
 						<span class="h2">Year</span>
 						<p>{{ page.agency.year }}</p>
 					</div>
@@ -62,4 +82,5 @@
 	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
 </body>
+
 </html>
