@@ -178,6 +178,11 @@
 			position: absolute;
 			right: 5%;
 		}
+
+		ul {
+			list-style-type: disc;
+			list-style-position: inside;
+		}
 	}
 
 	aside {
@@ -227,6 +232,11 @@
 
 	img {
 		width: 100%;
+	}
+
+	.readable-text {
+		font-size: 0.8em;
+		text-indent: 3em;
 	}
 }
 

@@ -8,6 +8,7 @@ linkedin: "https://www.linkedin.com/in/prakashprasad/"
 twitter: "https://twitter.com/indusninja/"
 github: "https://github.com/indusninja/"
 youtube: "https://www.youtube.com/user/prakashf1/"
+url: "http://prakashprasad.com"
 
 # Site config
 port: 5000
@@ -15,3 +16,15 @@ highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
+
+# plugins
+plugins:
+  - jekyll-youtube
+  - jekyll-analytics
+  - jekyll-email-protect
+  - jekyll-sitemap
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-53835019-2       # Required - replace with your tracking id
+    anonymizeIp: true       # Optional - Default: false - set to true for anonymized tracking
