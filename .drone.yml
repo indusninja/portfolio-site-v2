@@ -4,4 +4,4 @@ pipeline:
     commands:
       - gem install jekyll bundler
       - bundle
-      - jekyll build
+      - bundle exec jekyll build
