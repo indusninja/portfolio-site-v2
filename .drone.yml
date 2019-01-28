@@ -1,7 +1,9 @@
 pipeline:
   infrastructure:
-    image: jmccann/drone-terraform:1
-    plan: false
+    image: jmccann/drone-terraform:5
+    actions:
+      - validate
+    sensitive: true
     root_dir: deploy
     vars:
       domain: shader.works
