@@ -16,5 +16,6 @@ _site/
 *.sql
 *.sqlite
 
-# terraform secrets
+# terraform
+.terraform/
 *.tfvars

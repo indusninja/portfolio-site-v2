@@ -14,11 +14,23 @@ variable "cf_alias_zone_id" {
 }
 
 provider "aws" {
-  alias = "prod"
-
   region = "${var.region}"
   access_key = "${var.aws_access_key_id}"
   secret_key = "${var.aws_secret_key}"
+}
+
+provider "aws" {
+  alias = "prod"
+
+  # region = "eu-west-1"
+  # shared_credentials_file = "./credentials"  
+  region = "${var.region}"
+  access_key = "${var.aws_access_key_id}"
+  secret_key = "${var.aws_secret_key}"
+}
+
+resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
+  comment = "cloudfront origin access identity"
 }
 
 resource "aws_s3_bucket" "website_bucket" {
@@ -72,6 +84,7 @@ resource "aws_cloudfront_distribution" "cdn" {
     domain_name = "${var.subdomain}.s3.amazonaws.com"
     origin_id = "website_bucket_origin"
     s3_origin_config {
+      origin_access_identity = "${aws_cloudfront_origin_access_identity.origin_access_identity.cloudfront_access_identity_path}"
     }
   }
   enabled = true
