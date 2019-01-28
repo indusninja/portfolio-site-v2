@@ -10,9 +10,8 @@ pipeline:
       subdomain: www.shader.works
       subdomainAlias: www_shader_works
       cdnSubDomain: cdn.shader.works
-    secrets:
-      aws_access_key_id: AWSACCESSKEY_SECRET
-      aws_secret_key: AWSSECRETKEY_SECRET
+      aws_access_key_id: $$AWSACCESSKEY_SECRET
+      aws_secret_key: $$AWSSECRETKEY_SECRET
   build:
     image: ruby
     commands:
