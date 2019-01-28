@@ -11,6 +11,7 @@ pipeline:
     actions:
       - validate
       - plan
+      - apply
     vars:
       domain: shader.works
       domainAlias: shader_works
