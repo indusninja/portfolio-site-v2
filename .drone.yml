@@ -5,16 +5,15 @@ pipeline:
       - validate
     sensitive: true
     root_dir: deploy
+    environment:
+      TF_VAR_aws_access_key_id: ${AWSACCESSKEY_SECRET}
+      TF_VAR_aws_secret_key: ${AWSSECRETKEY_SECRET}
     vars:
       domain: shader.works
       domainAlias: shader_works
       subdomain: www.shader.works
       subdomainAlias: www_shader_works
       cdnSubDomain: cdn.shader.works
-      aws_access_key_id: 
-        from_secret: AWSACCESSKEY_SECRET
-      aws_secret_key: 
-        from_secret: AWSSECRETKEY_SECRET
   build:
     image: ruby
     commands:
