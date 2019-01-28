@@ -24,3 +24,12 @@ pipeline:
       - gem install jekyll bundler
       - bundle
       - bundle exec jekyll build
+  upload:
+    image: plugins/s3
+    settings:
+      bucket: www.shader.works
+      access_key:
+        from_secret: awsaccesskey_secret
+      secret_key:
+        from_secret: awssecretkey_secret
+      source: _site/**/*
