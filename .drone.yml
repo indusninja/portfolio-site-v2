@@ -1,13 +1,15 @@
 pipeline:
   infrastructure:
     image: jmccann/drone-terraform:5
+    secrets:
+      - source: AWSACCESSKEY_SECRET
+        target: tf_var_aws_access_key_id
+      - source: AWSSECRETKEY_SECRET
+        target: tf_var_aws_secret_key
     actions:
       - validate
     sensitive: true
     root_dir: deploy
-    environment:
-      TF_VAR_aws_access_key_id: ${AWSACCESSKEY_SECRET}
-      TF_VAR_aws_secret_key: ${AWSSECRETKEY_SECRET}
     vars:
       domain: shader.works
       domainAlias: shader_works
