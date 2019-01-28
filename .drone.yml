@@ -1,4 +1,23 @@
 pipeline:
+  infrastructure:
+    image: jmccann/drone-terraform:5
+    secrets:
+      - source: awsaccesskey_secret
+        target: tf_var_aws_access_key_id
+      - source: awssecretkey_secret
+        target: tf_var_aws_secret_key
+    root_dir: deploy
+    sensitive: true
+    actions:
+      - validate
+      - plan
+      - apply
+    vars:
+      domain: shader.works
+      domainAlias: shader_works
+      subdomain: www.shader.works
+      subdomainAlias: www_shader_works
+      cdnSubDomain: cdn.shader.works
   build:
     image: ruby
     commands:
