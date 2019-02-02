@@ -11,7 +11,8 @@ pipeline:
     actions:
       - validate
       - plan
-      - apply
+# apply currently has a bug, disable for now
+#      - apply
     vars:
       domain: shader.works
       domainAlias: shader_works
