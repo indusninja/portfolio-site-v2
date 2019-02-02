@@ -28,6 +28,7 @@ pipeline:
   upload:
     image: plugins/s3
     bucket: www.shader.works
+    region: eu-west-1
     secrets: [aws_access_key_id, aws_secret_access_key]
     source: _site/**/*
     target: /
