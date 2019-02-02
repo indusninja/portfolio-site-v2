@@ -33,5 +33,5 @@ pipeline:
     source: _site/**/*
     target: /
     strip_prefix: _site/
-    #when:
-    #  branch: master
+    when:
+      branch: master
