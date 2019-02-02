@@ -2,9 +2,9 @@ pipeline:
   infrastructure:
     image: jmccann/drone-terraform:5
     secrets:
-      - source: awsaccesskey_secret
+      - source: aws_access_key_id
         target: tf_var_aws_access_key_id
-      - source: awssecretkey_secret
+      - source: aws_secret_access_key
         target: tf_var_aws_secret_key
     root_dir: deploy
     sensitive: true
@@ -27,10 +27,9 @@ pipeline:
       - bundle exec jekyll build
   upload:
     image: plugins/s3
-    settings:
-      bucket: www.shader.works
-      access_key:
-        from_secret: awsaccesskey_secret
-      secret_key:
-        from_secret: awssecretkey_secret
-      source: _site/**/*
+    bucket: www.shader.works
+    secrets: [aws_access_key_id, aws_secret_access_key]
+    source: _site/**/*
+    target: /
+    #when:
+    #  branch: master
