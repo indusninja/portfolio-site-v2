@@ -32,5 +32,6 @@ pipeline:
     secrets: [aws_access_key_id, aws_secret_access_key]
     source: _site/**/*
     target: /
+    strip_prefix: _site/
     #when:
     #  branch: master
