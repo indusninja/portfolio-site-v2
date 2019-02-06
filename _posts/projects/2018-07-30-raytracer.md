@@ -2,6 +2,7 @@
 layout: project
 permalink: /:title/
 category: projects
+published: false
 
 meta:
   keywords: "Jekyll, Raytracer, Raytracing"
