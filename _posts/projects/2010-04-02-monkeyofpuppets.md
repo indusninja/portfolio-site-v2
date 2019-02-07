@@ -9,7 +9,7 @@ meta:
 project:
   title: "Monkey of Puppets"
   type: "Game"
-  year: "2010, 2013"
+  year: "2010"
   logo: "/assets/images/projects/yellowpineapple/logo.png"
   tech: "C#, Actionscript, XNA"
 
