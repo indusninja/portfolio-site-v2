@@ -2,37 +2,30 @@
 layout: project
 permalink: /:title/
 category: projects
-published: false
 
 meta:
-  keywords: "Jekyll, Raytracer, Raytracing"
+  keywords: "Jekyll, Chess"
 
 project:
-  title: "Raytracer"
-  type: "Framework"
+  title: "Chess"
+  type: "Game"
   year: "2019"
   logo: "/assets/images/projects/redpineapple/logo.png"
-  tech: "C++"
+  tech: "Javascript, React, Redux"
 
 source:
-  provider: "Github - Raytracer"
-  url: "https://github.com/indusninja/raytracer"
+  provider: "Github - Chess"
+  url: "https://github.com/indusninja"
 
 releases:
   - release:
-    title: "Windows Binary v0.1 (XX MB)"
+    title: "Web App"
     url: "https://github.com/indusninja/1"
-  - release:
-    title: "Mac Binary v0.1 (XX MB)"
-    url: "https://github.com/indusninja/2"
-  - release:
-    title: "Linux Binary v0.1 (XX MB)"
-    url: "https://github.com/indusninja/3"
 
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=zYKgVT7f-4g"
-    alt: "Live rendering video"
+    alt: "Gameplay video"
 
 images:
   - image:
@@ -46,7 +39,7 @@ images:
     alt: "Red Pineapple website on a mobile device"
 
 description:
-  content: "<p>Raytracing project, inspired by Peter Shirley's raytracer in a weekend.</p>"
+  content: "<p>Chess game made in React</p>"
 
 challenge:
   content: "<p></p>"

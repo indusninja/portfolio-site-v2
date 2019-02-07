@@ -10,11 +10,13 @@ See Pineapple in action on the [demo site](https://arnolds.io/pineapple/).
 
 ## Contents
 
-- [Setup](#setup)
-- [Deploy to Github Pages](#deploy-to-github-pages)
-- [Creating projects](#creating-projects)
-- [Resources](#resources)
-- [License](#license)
+- [Pineapple](#pineapple)
+  - [Contents](#contents)
+  - [Setup](#setup)
+  - [Deploy to Github Pages](#deploy-to-github-pages)
+  - [Creating projects](#creating-projects)
+  - [Resources](#resources)
+  - [License](#license)
 
 ## Setup
 
@@ -35,6 +37,12 @@ Start Jekyll:
 
 ```
 $ jekyll serve
+```
+
+To generate and develop draft posts:
+
+```
+bundle exec jekyll serve --watch --drafts
 ```
 
 Browse to http://127.0.0.1:4000/pineapple/ for some Pineapple goodness.

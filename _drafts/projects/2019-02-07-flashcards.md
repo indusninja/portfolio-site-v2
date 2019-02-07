@@ -2,37 +2,30 @@
 layout: project
 permalink: /:title/
 category: projects
-published: false
 
 meta:
-  keywords: "Jekyll, Furl, Rasterization"
+  keywords: "Jekyll, Flashcards"
 
 project:
-  title: "Furl"
-  type: "Engine"
+  title: "Flashcards"
+  type: "App"
   year: "2019"
   logo: "/assets/images/projects/redpineapple/logo.png"
-  tech: "C++"
+  tech: "C#, Serverless, REST API, Javascript, React, Redux"
 
 source:
-  provider: "Github - Furl"
-  url: "https://github.com/indusninja/furl"
+  provider: "Github - Flashcards"
+  url: "https://github.com/indusninja"
 
 releases:
   - release:
-    title: "Windows Binary v0.1 (XX MB)"
+    title: "Web App"
     url: "https://github.com/indusninja/1"
-  - release:
-    title: "Mac Binary v0.1 (XX MB)"
-    url: "https://github.com/indusninja/2"
-  - release:
-    title: "Linux Binary v0.1 (XX MB)"
-    url: "https://github.com/indusninja/3"
 
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=zYKgVT7f-4g"
-    alt: "Live rendering video"
+    alt: "Demo video"
 
 images:
   - image:
@@ -46,7 +39,7 @@ images:
     alt: "Red Pineapple website on a mobile device"
 
 description:
-  content: "<p>Realtime rendering framework.</p>"
+  content: "<p>A flashcards app for learning Norwegian.</p>"
 
 challenge:
   content: "<p></p>"
