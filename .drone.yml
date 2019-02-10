@@ -6,19 +6,27 @@ pipeline:
         target: tf_var_aws_access_key_id
       - source: aws_secret_access_key
         target: tf_var_aws_secret_key
-    root_dir: deploy
+      - source: aws_access_key_id
+        target: AWS_ACCESS_KEY_ID
+      - source: aws_secret_access_key
+        target: AWS_SECRET_ACCESS_KEY
+    root_dir: provision/s3-hosting
     sensitive: true
+    init_options:
+      backend-config:
+        - "bucket=terraform.state.storage"
+        - "key=shader_works/terraform.tfstate"
+        - "region=eu-west-1"
+        - "encrypt=true"
+        - "dynamodb_table=terraform-state-lock-dynamo"
     actions:
       - validate
       - plan
-# apply currently has a bug, disable for now
-#      - apply
-    vars:
-      domain: shader.works
-      domainAlias: shader_works
-      subdomain: www.shader.works
-      subdomainAlias: www_shader_works
-      cdnSubDomain: cdn.shader.works
+      - apply
+    var_files:
+      - dev/dev.infrastructure.tfvars
+    when:
+      branch: master
   build:
     image: ruby
     commands:

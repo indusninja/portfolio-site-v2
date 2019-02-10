@@ -1,12 +1,20 @@
-variable "aws_access_key_id" {}
-variable "aws_secret_key" {}
-variable "region" { default = "eu-west-1" }
+variable "aws_access_key_id" { }
+variable "aws_secret_key" { }
+variable "region" { }
 
-variable "domain" { default = "jevsejev.io" }
-variable "domainAlias" { default = "jevsejev_io" }
-variable "subdomain" { default = "www.jevsejev.io" }
-variable "subdomainAlias" { default = "www_jevsejev_io" }
-variable "cdnSubDomain" { default = "cdn.jevsejev.io" }
+variable "domain" { }
+variable "domainAlias" { }
+variable "subdomain" { }
+variable "subdomainAlias" { }
+variable "cdnSubDomain" { }
+
+terraform {
+  required_version = "~> 0.11"
+
+  backend "s3" {
+    encrypt = true
+  }
+}
 
 variable "cf_alias_zone_id" {
   description = "Fixed hardcoded constant zone_id that is used for all CloudFront distributions"
@@ -14,14 +22,6 @@ variable "cf_alias_zone_id" {
 }
 
 provider "aws" {
-  region = "${var.region}"
-  access_key = "${var.aws_access_key_id}"
-  secret_key = "${var.aws_secret_key}"
-}
-
-provider "aws" {
-  alias = "prod"
-
   # region = "eu-west-1"
   # shared_credentials_file = "./credentials"  
   region = "${var.region}"
@@ -34,7 +34,7 @@ resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
 }
 
 resource "aws_s3_bucket" "website_bucket" {
-  provider = "aws.prod"
+  provider = "aws"
 
   bucket = "${var.subdomain}"
   acl = "public-read"
@@ -60,12 +60,12 @@ POLICY
 }
 
 resource "aws_route53_zone" "route53_zone" {
-  provider = "aws.prod"
+  provider = "aws"
   name = "${var.domain}"
 }
 
 resource "aws_route53_record" "website_route53_record" {
-  provider = "aws.prod"
+  provider = "aws"
   zone_id = "${aws_route53_zone.route53_zone.zone_id}"
   name = "${var.subdomain}"
   type = "A"
@@ -78,7 +78,7 @@ resource "aws_route53_record" "website_route53_record" {
 }
 
 resource "aws_cloudfront_distribution" "cdn" {
-  provider = "aws.prod"
+  provider = "aws"
   depends_on = ["aws_s3_bucket.website_bucket"]
   origin {
     domain_name = "${var.subdomain}.s3.amazonaws.com"
@@ -118,7 +118,7 @@ resource "aws_cloudfront_distribution" "cdn" {
 }
 
 resource "aws_route53_record" "route53_to_cdn" {
-  provider = "aws.prod"
+  provider = "aws"
   zone_id = "${aws_route53_zone.route53_zone.zone_id}"
   name = "${var.cdnSubDomain}"
   type = "A"
