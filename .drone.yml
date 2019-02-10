@@ -25,6 +25,8 @@ pipeline:
       - apply
     var_files:
       - dev/dev.infrastructure.tfvars
+    when:
+      branch: master
   build:
     image: ruby
     commands:
