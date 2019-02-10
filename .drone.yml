@@ -22,7 +22,7 @@ pipeline:
     actions:
       - validate
       - plan
-      # - apply
+      - apply
     var_files:
       - dev/dev.infrastructure.tfvars
   build:
