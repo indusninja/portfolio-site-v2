@@ -11,10 +11,10 @@ pipeline:
     remote:
       backend: S3
       config:
-        encrypt: true
-        region: eu-west-1
         bucket: terraform.state.storage
+        region: eu-west-1
         key: shader_works/terraform.tfstate
+        encrypt: true
         dynamodb_table: terraform-state-lock-dynamo
     actions:
       - validate
