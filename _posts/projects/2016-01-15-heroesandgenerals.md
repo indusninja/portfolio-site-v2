@@ -24,8 +24,11 @@ releases:
 
 videos:
   - video:
-    url: "https://www.youtube.com/watch?v=IhSyWZQzmTE"
-    alt: "Gameplay video"
+    url: "https://www.youtube.com/watch?v=J8aU08c1zHY"
+    alt: "Launch Trailer"
+  - video:
+    url: "https://www.youtube.com/watch?v=fsbjYkWbKEg"
+    alt: "Fan made RTS Game Guide"
 
 images:
   - image:
