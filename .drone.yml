@@ -8,25 +8,19 @@ pipeline:
         target: tf_var_aws_secret_key
     root_dir: provision/s3-hosting
     sensitive: true
-    remote:
-      backend: S3
-      config:
-        bucket: terraform.state.storage
-        region: eu-west-1
-        key: shader_works/terraform.tfstate
-        encrypt: true
-        dynamodb_table: terraform-state-lock-dynamo
+    init_options:
+      backend-config:
+        - "bucket=terraform.state.storage"
+        - "key=shader_works/terraform.tfstate"
+        - "region=eu-west-1"
+        - "encrypt=true"
+        - "dynamodb_table=terraform-state-lock-dynamo"
     actions:
       - validate
       - plan
       # - apply
-    vars:
-      region: eu-west-1
-      domain: shader.works
-      domainAlias: shader_works
-      subdomain: www.shader.works
-      subdomainAlias: www_shader_works
-      cdnSubDomain: cdn.shader.works
+    var_files:
+      - dev/dev.infrastructure.tfvars
   build:
     image: ruby
     commands:
