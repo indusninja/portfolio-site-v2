@@ -10,6 +10,8 @@ pipeline:
     sensitive: true
     init_options:
       backend-config:
+        - "access_key=${aws_access_key_id}"
+        - "secret_key=${aws_secret_access_key}"
         - "bucket=terraform.state.storage"
         - "key=shader_works/terraform.tfstate"
         - "region=eu-west-1"
