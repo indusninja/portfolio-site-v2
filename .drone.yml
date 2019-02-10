@@ -6,14 +6,22 @@ pipeline:
         target: tf_var_aws_access_key_id
       - source: aws_secret_access_key
         target: tf_var_aws_secret_key
-    root_dir: deploy
+    root_dir: provision/s3-hosting
     sensitive: true
+    remote:
+      backend: S3
+      config:
+        encrypt: true
+        region: eu-west-1
+        bucket: terraform.state.storage
+        key: shader_works/terraform.tfstate
+        dynamodb_table: terraform-state-lock-dynamo
     actions:
       - validate
       - plan
-# apply currently has a bug, disable for now
-#      - apply
+      # - apply
     vars:
+      region: eu-west-1
       domain: shader.works
       domainAlias: shader_works
       subdomain: www.shader.works
