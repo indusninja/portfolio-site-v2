@@ -8,9 +8,6 @@ variable "subdomain" { }
 variable "subdomainAlias" { }
 variable "cdnSubDomain" { }
 
-variable "bucketToStoreState" { }
-variable "dynamoTableForStateLocking" { }
-
 terraform {
   required_version = "~> 0.11"
 
