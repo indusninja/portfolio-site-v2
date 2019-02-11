@@ -1,4 +1,4 @@
-![Build Status](https://drone.prakashprasad.com/api/badges/indusninja/portfolio-site/status.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d62e4912-a423-4b6b-bafb-7a6bdf79e40a/deploy-status)](https://app.netlify.com/sites/gracious-swanson-025602/deploys)
 
 # Pineapple
 
