@@ -10,7 +10,7 @@ project:
   title: "Stay, Good Dog!"
   type: "Game"
   year: "2019"
-  logo: "/assets/images/projects/aquapineapple/logo.png"
+  logo: "/assets/images/projects/staygooddog/logo.png"
   tech: "Unity 3D, C#"
 
 source:
@@ -29,14 +29,20 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/aquapineapple/devices.jpg"
-    alt: "Aqua Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/staygooddog/staygooddog-03.png"
+    alt: "Cut-piece telling narrative of the game"
   - image:
-    url: "/assets/images/projects/aquapineapple/desktop.jpg"
-    alt: "Aqua Pineapple website on a desktop device"
+    url: "/assets/images/projects/staygooddog/staygooddog-05.png"
+    alt: "Doggo vision (desaturated and blurry)"
   - image:
-    url: "/assets/images/projects/aquapineapple/mobile.jpg"
-    alt: "Aqua Pineapple website on a mobile device"
+    url: "/assets/images/projects/staygooddog/staygooddog-10.png"
+    alt: "Level environment 1"
+  - image:
+    url: "/assets/images/projects/staygooddog/staygooddog-06.png"
+    alt: "However smells come through clear and colored"
+  - image:
+    url: "/assets/images/projects/staygooddog/staygooddog-11.png"
+    alt: "Level environment 2"
 
 description:
   content: "<p>Stay, Good Dog! is a video game that is all about a friendship between a dog and his owner. The player is the dog, and is trying to find it's way back home to the arms of its owner.</p>"

@@ -10,7 +10,7 @@ project:
   title: "The Gods Must be Crazy"
   type: "Game"
   year: "2011"
-  logo: "/assets/images/projects/greenpineapple/logo.png"
+  logo: "/assets/images/projects/godsmustbecrazy/logo.png"
   tech: "C#, XNA"
 
 source:
@@ -29,14 +29,23 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/greenpineapple/devices.jpg"
-    alt: "Green Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/godsmustbecrazy/HowToPlay.png"
+    alt: "How to play"
   - image:
-    url: "/assets/images/projects/greenpineapple/desktop.jpg"
-    alt: "Green Pineapple website on a desktop device"
+    url: "/assets/images/projects/godsmustbecrazy/L2_targetting.png"
+    alt: "Target a meteor from an asteroid field"
   - image:
-    url: "/assets/images/projects/greenpineapple/mobile.jpg"
-    alt: "Green Pineapple website on a mobile device"
+    url: "/assets/images/projects/godsmustbecrazy/L3_shipescape.png"
+    alt: "Complex galaxies"
+  - image:
+    url: "/assets/images/projects/godsmustbecrazy/L4_explosion.png"
+    alt: "Life of planets and which planets are dead"
+  - image:
+    url: "/assets/images/projects/godsmustbecrazy/L1_targetting.png"
+    alt: "The longer the targeting is, the faster asteroids shoot out"
+  - image:
+    url: "/assets/images/projects/godsmustbecrazy/WinScreen.png"
+    alt: "Flying spaghetti monster wins!"
 
 description:
   content: "<p>Ever wanted to play god? Destroy life with impunity? Well, you've come to the right place...</p><p>The Gods Must be Crazy is a game where players have to try to destroy life in a given solar system by utilizing celestial mechanics (i.e. motion of objects in space, under the influence of objects in space).</p><p>The human population spreads in a pattern where once a planet is filled with people, a spaceship is launched to spread life within that solar system. If no more planets are left to inhabit, then the spaceship will leave the solar system, meaning that the player has lost.</p><p>The gods' can fling meteors and bursts of solar flares to stop humans. Meteors can be launched from a meteor field by selecting a direction and some speed. These use up higher energy from the “divine power” bar as compared to solar flares, but are much more potent tools of destruction. Solar flares are fired from the sun to the point where the player right-clicks.</p><p>Each level provides new solar systems with their unique hurdles for the player to overcome.</p>"

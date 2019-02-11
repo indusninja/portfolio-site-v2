@@ -10,7 +10,7 @@ project:
   title: "Don't Panic"
   type: "Game"
   year: "2012"
-  logo: "/assets/images/projects/greenpineapple/logo.png"
+  logo: "/assets/images/projects/dontpanic/logo.png"
   tech: "C#, Unity 3D"
 
 source:
@@ -29,14 +29,17 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/greenpineapple/devices.jpg"
-    alt: "Green Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/dontpanic/shot3.png"
+    alt: "Prototyping gameplay"
   - image:
-    url: "/assets/images/projects/greenpineapple/desktop.jpg"
-    alt: "Green Pineapple website on a desktop device"
+    url: "/assets/images/projects/dontpanic/shot2.png"
+    alt: "Co-operative play, each player must help the other to progress"
   - image:
-    url: "/assets/images/projects/greenpineapple/mobile.jpg"
-    alt: "Green Pineapple website on a mobile device"
+    url: "/assets/images/projects/dontpanic/shot1.png"
+    alt: "Platformer level design"
+  - image:
+    url: "/assets/images/projects/dontpanic/title.png"
+    alt: "Title Screen"
 
 description:
   content: "<p>Don't Panic is a two-player co-operative platform puzzle game, which was developed during the Nordic Game Jam 2012. Each player controls a robot in the game whose primary resource is electric energy, which is used for movement.</p><p>However, even staying idle saps some energy from the robots. So, effectively players have only a certain amount of time to finish each level. In order to mediate the effects of losing energy, players can pick up the radiant balls (energy cores) in the level. This ball recharges the robot holding it, but doesn't stop charging it past its maximum capacity either. This means prolonged exposure of the ball can destroy the robot.</p><p>Both players have to work together in order to overcome such challenges presented in the level to reach end of the level.</p>"

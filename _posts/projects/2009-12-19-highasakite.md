@@ -10,7 +10,7 @@ project:
   title: "High as a Kite"
   type: "Game"
   year: "2009"
-  logo: "/assets/images/projects/greenpineapple/logo.png"
+  logo: "/assets/images/projects/kite/logo.png"
   tech: "C#, XNA, Wiimote"
 
 source:
@@ -29,14 +29,17 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/greenpineapple/devices.jpg"
-    alt: "Green Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/kite/kite_cover.png"
+    alt: "Title Image"
   - image:
-    url: "/assets/images/projects/greenpineapple/desktop.jpg"
-    alt: "Green Pineapple website on a desktop device"
+    url: "/assets/images/projects/kite/kite_ground.png"
+    alt: "Start from close to the ground and let that kite soar"
   - image:
-    url: "/assets/images/projects/greenpineapple/mobile.jpg"
-    alt: "Green Pineapple website on a mobile device"
+    url: "/assets/images/projects/kite/kite_top.png"
+    alt: "higher the kite goes, darker the background gets"
+  - image:
+    url: "/assets/images/projects/kite/kite_instructions.png"
+    alt: "Instructions to play"
 
 description:
   content: "<p>High as a Kite is a single player 2D game where players have to do certain movements with the Nintendo Wii remote to fly a kite. The objective of the game is for the player to get the kite to the top. The skyscape gradually changes to depict this movement - from the atmospheric lit, light-blue sky to a more dark-blue sky with space feel including stars towards the top. The kite’s journey however is riddled with winds of varying kind. Winds have two parameters - direction and speed. This provides a challenge to the player since a wind pocket with low speed means player’s motion has to be strong. Players also have to time the motion while the kite is rotating to make sure that it moves upwards.</p>"
