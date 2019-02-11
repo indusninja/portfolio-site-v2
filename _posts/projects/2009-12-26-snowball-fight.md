@@ -10,7 +10,7 @@ project:
   title: "Snowball Fight"
   type: "Game"
   year: "2009"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/snowballfight/logo.png"
   tech: "Unreal Engine, UnrealScript"
 
 source:
@@ -32,14 +32,20 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/snowballfight/15-14-19-04.png"
+    alt: "Build destructible snow walls"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
+    url: "/assets/images/projects/snowballfight/15-15-45-43.png"
+    alt: "Capture the flag game mode"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
+    url: "/assets/images/projects/snowballfight/15-16-04-22.png"
+    alt: "Player movement depends on staying warm enough, get too cold - then drink cocoa to get warm"
+  - image:
+    url: "/assets/images/projects/snowballfight/15-17-00-31.png"
+    alt: "Level designed over a frozen lake"
+  - image:
+    url: "/assets/images/projects/snowballfight/15-13-12-82.png"
+    alt: "Cel-shaded graphic style"
 
 description:
   content: "<p>Snowball Fight is a multiplayer-only First Person Shooter (FPS) game developed using the Unreal Engine (UDK).</p><p>Players fight across a snow covered playground in teams. Teams are trying to dominate the area in the center of the playground. Players can use snow for both offensive as well as defensive play. Snow can be thrown at opponents to ‘knock them out’ or be used to build snow walls which offer protection and strategic flexibility. The snow needed for those actions can be gathered by simply crouching on a snow covered landscape. When players have taken too many snowball hits, they can warm themselves with a glass of hot cocoa and get back to the playground. Players with too many snow hits get too cold, and get slower as a result.</p><p>The development team constituted of 7 members, out of which 3 were programmers, and I had the role of technical lead on the project.</p>"

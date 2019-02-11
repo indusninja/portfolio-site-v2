@@ -10,7 +10,7 @@ project:
   title: "Monkey of Puppets"
   type: "Game"
   year: "2010"
-  logo: "/assets/images/projects/yellowpineapple/logo.png"
+  logo: "/assets/images/projects/monkeys/logo.png"
   tech: "C#, Actionscript, XNA"
 
 source:
@@ -32,14 +32,23 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/yellowpineapple/devices.jpg"
-    alt: "Yellow Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/monkeys/placement_eg.png"
+    alt: "Get the key and you can pass through the door"
   - image:
-    url: "/assets/images/projects/yellowpineapple/desktop.jpg"
-    alt: "Yellow Pineapple website on a desktop device"
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets3.png"
+    alt: "Avoid line of sight from enemies"
   - image:
-    url: "/assets/images/projects/yellowpineapple/mobile.jpg"
-    alt: "Yellow Pineapple website on a mobile device"
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets1.png"
+    alt: "If caught by the enemy, player loses a life"
+  - image:
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets2.png"
+    alt: "Use dummies to confuse enemies and sneak through"
+  - image:
+    url: "/assets/images/projects/monkeys/CompleteRandomMap.png"
+    alt: "Procedurally generated levels for the game - fully random, may not have a path through"
+  - image:
+    url: "/assets/images/projects/monkeys/TurtleMap.png"
+    alt: "Procedurally generated levels for the game - moving turtle, path guaranteed"
 
 description:
   content: "<p>This game is a puzzle game where players have to sneak past the enemies, find the key and get to the door to escape the current level. And do it all over again in the next level.</p><p>Levels in the game are built using a 2D tile pattern, which denotes light green tiles (grass) as passable and dark green tiles (trees) as non passable. Enemies in the game are inactive unless they spot the player avatar (using a straight-forward line of sight logic). Players can either hide out of sight of the enemy, or deploy a dummy, in which case enemies will attack the closest one of the two. This can be used as a ploy by the player to distract the enemy while trying to sneak to a new hiding spot.</p><p>It has a basic state management system that helps in showing menus, keeping track of lives, managing state of the game and its levels, playing sound events for different game events, etc.</p><p>This game was initially developed during the Global Game Jam, over a duration of 48 hours. It also has an incomplete port in Flash, which has now been abandoned due to unpopularity of the platform.</p>"
