@@ -10,20 +10,8 @@ project:
   title: "Lost in Time"
   type: "Game"
   year: "2016-2018"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/lit/logo2.png"
   tech: "Unreal Engine, C++"
-
-source:
-  provider: "Github - Lost in Time"
-  url: "https://github.com/indusninja"
-
-releases:
-  - release:
-    title: "iOS Release (XX MB)"
-    url: "https://github.com/indusninja"
-  - release:
-    title: "Android Release (XX MB)"
-    url: "https://github.com/indusninja"
 
 videos:
   - video:
@@ -32,14 +20,29 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/lit/studio-LostInTime-1-lo.png"
+    alt: "Mixed reality shooting for Lost in Time"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
+    url: "/assets/images/projects/lit/studio-LostInTime-3.png"
+    alt: "Mixed reality shooting for Lost in Time"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
+    url: "/assets/images/projects/lit/WW_driving.jpg"
+    alt: "Wild West Driving Mobile Game"
+  - image:
+    url: "/assets/images/projects/lit/space-age-driving-2.png"
+    alt: "Space Age Driving Mobile Game"
+  - image:
+    url: "/assets/images/projects/lit/IceAge_Driving.jpg"
+    alt: "Ice Age Driving Mobile Game"
+  - image:
+    url: "/assets/images/projects/lit/Jura_driving.jpg"
+    alt: "Jurassic Age Driving Mobile Game"
+  - image:
+    url: "/assets/images/projects/lit/Medieval_driving.jpg"
+    alt: "Medieval Age Driving Mobile Game"
+  - image:
+    url: "/assets/images/projects/lit/Roaring20s_driving.jpg"
+    alt: "Roaring 20s Driving Mobile Game"
 
 description:
   content: "<p>Lost in Time was a TV show in Norway that aired in April 2017 with a companion app for viewers to play along. It was culmination of a family of technologies that allowed the production of tightly coupled products for television broadcasting.</p><p>In the show, contestants compete with each other by playing mixed reality games for a prize pool. These mixed reality games had physical controllers for digital games and were captured in a green room.</p><p>When the show aired, players at home could join and compete for a prize pool that would be equal to the episode's prize pool. Both the show and the apps had 4 games types, with each themed for 6 distinct era themes. Both the mobile app/games and the studio interactive games were made in Unreal Engine 4.</p>"
