@@ -15,12 +15,12 @@ project:
 
 source:
   provider: "Github - The Gods Must be Crazy"
-  url: "https://github.com/indusninja"
+  url: "https://github.com/indusninja/godsmustbecrazy"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
+    title: "Windows Binary (27.8 MB)"
+    url: "https://github.com/indusninja/godsmustbecrazy/releases/download/v1.0/godsmustbecrazy_install.rar"
 
 videos:
   - video:

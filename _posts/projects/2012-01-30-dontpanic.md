@@ -15,12 +15,18 @@ project:
 
 source:
   provider: "Github - Don't Panic"
-  url: "https://github.com/indusninja"
+  url: "https://github.com/indusninja/dontpanic"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
+    title: "Windows binary (72.2 MB)"
+    url: "https://github.com/indusninja/dontpanic/releases/download/v0.1/dontpanic_win.zip"
+  - release:
+    title: "Mac binary (78.2 MB)"
+    url: "https://github.com/indusninja/dontpanic/releases/download/v0.1/dontpanic_mac.zip"
+  - release:
+    title: "Unity web player version (61.2 MB)"
+    url: "https://github.com/indusninja/dontpanic/releases/download/v0.1/dontpanic_web.unity3d"
 
 videos:
   - video:
