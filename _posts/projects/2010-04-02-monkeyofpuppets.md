@@ -15,15 +15,15 @@ project:
 
 source:
   provider: "Github - Monkey of Puppets"
-  url: "https://github.com/indusninja"
+  url: "https://github.com/indusninja/monkeyofpuppets"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja/1"
+    title: "Windows binary (XNA version)"
+    url: "https://github.com/indusninja/monkeyofpuppets/releases/download/v1.0/monkeyofpuppets_install.rar"
   - release:
-    title: "Web Player"
-    url: "https://github.com/indusninja/2"
+    title: "Web player (Flash version)"
+    url: "https://github.com/indusninja/old-folio-site/releases/download/v1.0/puppets.swf"
 
 videos:
   - video:

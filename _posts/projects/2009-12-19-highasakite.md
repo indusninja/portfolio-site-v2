@@ -15,12 +15,18 @@ project:
 
 source:
   provider: "Github - High as a Kite"
-  url: "https://github.com/indusninja"
+  url: "https://github.com/indusninja/highasakite"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
+    title: "Instructions about how to run"
+    url: "https://github.com/indusninja/highasakite/releases/download/v1.0/highasakite_setup_instructions.pdf"
+  - release:
+    title: "Bluetooth driver tested with wii-motes"
+    url: "https://github.com/indusninja/highasakite/releases/download/v1.0/highasakite-BluetoothDriver.rar"
+  - release:
+    title: "High as a Kite (26.7 MB)"
+    url: "https://github.com/indusninja/highasakite/releases/download/v1.0/highasakite-install.rar"
 
 videos:
   - video:

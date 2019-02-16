@@ -13,15 +13,6 @@ project:
   logo: "/assets/images/projects/snowballfight/logo.png"
   tech: "Unreal Engine, UnrealScript"
 
-source:
-  provider: "Github - Snowball Fight"
-  url: "https://github.com/indusninja"
-
-releases:
-  - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
-
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=qRfHKbVfV78"
