@@ -44,9 +44,11 @@
 						<span class="h2">Technologies</span>
 						<p>{{ page.project.tech }}</p>
 
+						{% if page.source.size >= 1 %}
 						<span class="h2">Source Code</span>
 						<p><a title="{{ page.source.provider }}" href="{{ page.source.url }}" target="_blank" rel="nofollow">{{
 								page.source.provider }}</a></p>
+						{% endif %}
 
 						{% if page.releases.size == 1 %}
 						<span class="h2">Release</span>

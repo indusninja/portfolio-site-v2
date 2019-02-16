@@ -10,17 +10,13 @@ project:
   title: "Heroes & Generals"
   type: "Game"
   year: "2011-2016"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/hng/logo.png"
   tech: "C#, protocol buffers, SQL"
-
-source:
-  provider: "Github - Heroes & Generals"
-  url: "https://github.com/indusninja"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
+    title: "Heroes and Generals - Play Online"
+    url: "https://heroesandgenerals.com/"
 
 videos:
   - video:
@@ -32,14 +28,23 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/hng/HnG_WWII_2560x1440.jpg"
+    alt: "Title Image"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
+    url: "/assets/images/projects/hng/HnG_03cWallpaper_1440p-1.jpg"
+    alt: "Battles are resolved in multi-player FPS games"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
+    url: "/assets/images/projects/hng/strategy-give-move-command.png"
+    alt: "Strategy game map - move tactical units around"
+  - image:
+    url: "/assets/images/projects/hng/fps-battles-from-strategy.png"
+    alt: "FPS battles spawned by confrontations on the strategy map"
+  - image:
+    url: "/assets/images/projects/hng/battle-resources.png"
+    alt: "Resources allocated to a battle"
+  - image:
+    url: "/assets/images/projects/hng/hq-resources.png"
+    alt: "Depleted resources replenished from the HQ"
 
 description:
   content: "<p>This game combines the immediate gains of a First Person Shooter (FPS) game with the long term planning of Real Time Strategy (RTS). It has enough to keep a vast variety of players involved.</p><p>It is World War II, and forces in Europe are constantly at each other's throats to gain tactical advantage in the great war. Players can influence the war directly by acting as 'Heroes' (fighting in FPS battles) or as 'Generals' (planning on the RTS scale).</p><p>Generals control tactical units on the ground - where they will move, which city they will fortify and which battle they will reinforce. Wherever opposing tactical units meet, a new battle is spawned for soldiers to join. The resources that made it to the battle are the only ones these FPS players will have against the opposition. The victors on this battle take control of the city and the opposing forces have to retreat out of town.</p><p>The grand strategy for the generals is to occupy as many cities with resources as possible so that the war machine can keep rolling. Eventually the faction which controls enough 'capitals' wins the war.</p>"
