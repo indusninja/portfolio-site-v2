@@ -10,6 +10,7 @@ Thumbs.db
 # Compilation
 .sass-cache/
 _site/
+Gemfile.lock
 
 # Logs and db's
 *.log
@@ -20,3 +21,4 @@ _site/
 .terraform/
 *.tfout
 *.tfstate*
+dev.aws.tfvars
