@@ -13,6 +13,15 @@ project:
   logo: "/assets/images/projects/snowballfight/logo.png"
   tech: "Unreal Engine, UnrealScript"
 
+source:
+  provider: "BitBucket - Snowball Fight"
+  url: "https://bitbucket.org/klauskk/snowball"
+
+releases:
+  - release:
+    title: "Windows binary (140.4 MB)"
+    url: "https://bitbucket.org/klauskk/snowball/downloads/UDKInstall-SnowBall.exe"
+
 videos:
   - video:
     url: "https://www.youtube.com/watch?v=qRfHKbVfV78"
