@@ -1,14 +1,14 @@
 # User config
 author: "Prakash Prasad"
-tagline: "Project Portfolio"
+tagline: "Projects"
 description: "I've worked on many projects. Here's a showcase of some..."
-keywords: "Projects, Code, Game, Techonology"
+keywords: "Projects, Code, Game, Techonology, Rendering"
 email: "prakash@prakashprasad.com"
 linkedin: "https://www.linkedin.com/in/prakashprasad/"
 twitter: "https://twitter.com/indusninja/"
 github: "https://github.com/indusninja/"
 youtube: "https://www.youtube.com/user/prakashf1/"
-url: "http://prakashprasad.com"
+url: "http://projects.shader.works/"
 
 # Site config
 port: 5000
@@ -24,7 +24,8 @@ plugins:
   - jekyll-email-protect
   - jekyll-sitemap
 
+# google analytics information
 jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-53835019-2       # Required - replace with your tracking id
-    anonymizeIp: true       # Optional - Default: false - set to true for anonymized tracking
+  GoogleAnalytics:
+    id: UA-27962903-2
+    anonymizeIp: true
