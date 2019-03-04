@@ -11,6 +11,10 @@ twitter: "https://twitter.com/indusninja/"
 github: "https://github.com/indusninja/"
 youtube: "https://www.youtube.com/user/prakashf1/"
 url: "http://prakashprasad.com/"
+# some of these links should depend on where the request if coming from
+# for example: 
+# if projects.shader.works: then link should be resume.shader.works
+# if prakashprasad.com: then link should be resume.prakashprasad.com
 
 # Site config
 port: 5000
