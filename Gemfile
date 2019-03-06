@@ -5,5 +5,4 @@ group :jekyll_plugins do
   gem "jekyll-analytics"
   gem "jekyll-email-protect"
   gem "jekyll-sitemap"
-  gem "jekyll-watch"
 end
