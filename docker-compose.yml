@@ -3,6 +3,7 @@ version: '2'
 services:
   jekyll:
     image: bretfisher/jekyll-serve
+    restart: always
     volumes:
       - .:/site
     ports:
