@@ -17,7 +17,7 @@ url: "http://prakashprasad.com/"
 # if prakashprasad.com: then link should be resume.prakashprasad.com
 
 # Site config
-port: 5000
+port: 4000
 highlighter: rouge
 sass:
   sass_dir: assets/scss
