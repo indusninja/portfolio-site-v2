@@ -29,6 +29,7 @@ plugins:
   - jekyll-analytics
   - jekyll-email-protect
   - jekyll-sitemap
+  - jekyll-watch
 
 # google analytics information
 jekyll_analytics:
