@@ -3,10 +3,11 @@ version: '2'
 services:
   jekyll:
     image: bretfisher/jekyll-serve
+    container_name: jekyll-portfolio-site
     restart: always
     volumes:
       - .:/site
     ports:
-      - '4000:4000'
+      - '4444:4000'
       - '35729:35729'
     command: bundle exec jekyll s --force_polling -H 0.0.0.0 -P 4000 --livereload
