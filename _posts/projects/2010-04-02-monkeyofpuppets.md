@@ -10,7 +10,7 @@ project:
   title: "Monkey of Puppets"
   type: "Game"
   year: "2010"
-  logo: "/assets/images/projects/monkeys/logo.png"
+  logo: "/assets/images/projects/monkeys/logo.webp"
   tech: "C#, Actionscript, XNA"
 
 source:
@@ -32,22 +32,22 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/monkeys/placement_eg.png"
+    url: "/assets/images/projects/monkeys/placement_eg.webp"
     alt: "Get the key and you can pass through the door"
   - image:
-    url: "/assets/images/projects/monkeys/MonkeyOfPuppets3.png"
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets3.webp"
     alt: "Avoid line of sight from enemies"
   - image:
-    url: "/assets/images/projects/monkeys/MonkeyOfPuppets1.png"
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets1.webp"
     alt: "If caught by the enemy, player loses a life"
   - image:
-    url: "/assets/images/projects/monkeys/MonkeyOfPuppets2.png"
+    url: "/assets/images/projects/monkeys/MonkeyOfPuppets2.webp"
     alt: "Use dummies to confuse enemies and sneak through"
   - image:
-    url: "/assets/images/projects/monkeys/CompleteRandomMap.png"
+    url: "/assets/images/projects/monkeys/CompleteRandomMap.webp"
     alt: "Procedurally generated levels for the game - fully random, may not have a path through"
   - image:
-    url: "/assets/images/projects/monkeys/TurtleMap.png"
+    url: "/assets/images/projects/monkeys/TurtleMap.webp"
     alt: "Procedurally generated levels for the game - moving turtle, path guaranteed"
 
 description:

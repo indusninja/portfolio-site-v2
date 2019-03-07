@@ -10,7 +10,7 @@ project:
   title: "Stay, Good Dog!"
   type: "Game"
   year: "2019"
-  logo: "/assets/images/projects/staygooddog/logo.png"
+  logo: "/assets/images/projects/staygooddog/logo.webp"
   tech: "Unity 3D, C#"
 
 source:
@@ -29,19 +29,19 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/staygooddog/staygooddog-03.png"
+    url: "/assets/images/projects/staygooddog/staygooddog-03.webp"
     alt: "Cut-piece telling narrative of the game"
   - image:
-    url: "/assets/images/projects/staygooddog/staygooddog-05.png"
+    url: "/assets/images/projects/staygooddog/staygooddog-05.webp"
     alt: "Doggo vision (desaturated and blurry)"
   - image:
-    url: "/assets/images/projects/staygooddog/staygooddog-10.png"
+    url: "/assets/images/projects/staygooddog/staygooddog-10.webp"
     alt: "Level environment 1"
   - image:
-    url: "/assets/images/projects/staygooddog/staygooddog-06.png"
+    url: "/assets/images/projects/staygooddog/staygooddog-06.webp"
     alt: "However smells come through clear and colored"
   - image:
-    url: "/assets/images/projects/staygooddog/staygooddog-11.png"
+    url: "/assets/images/projects/staygooddog/staygooddog-11.webp"
     alt: "Level environment 2"
 
 description:

@@ -10,7 +10,7 @@ project:
   title: "Heroes & Generals"
   type: "Game"
   year: "2011-2016"
-  logo: "/assets/images/projects/hng/logo.png"
+  logo: "/assets/images/projects/hng/logo.webp"
   tech: "C#, protocol buffers, SQL"
 
 releases:
@@ -28,22 +28,22 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/hng/HnG_WWII_2560x1440.jpg"
+    url: "/assets/images/projects/hng/HnG_WWII_2560x1440.webp"
     alt: "Title Image"
   - image:
-    url: "/assets/images/projects/hng/HnG_03cWallpaper_1440p-1.jpg"
+    url: "/assets/images/projects/hng/HnG_03cWallpaper_1440p-1.webp"
     alt: "Battles are resolved in multi-player FPS games"
   - image:
-    url: "/assets/images/projects/hng/strategy-give-move-command.png"
+    url: "/assets/images/projects/hng/strategy-give-move-command.webp"
     alt: "Strategy game map - move tactical units around"
   - image:
-    url: "/assets/images/projects/hng/fps-battles-from-strategy.png"
+    url: "/assets/images/projects/hng/fps-battles-from-strategy.webp"
     alt: "FPS battles spawned by confrontations on the strategy map"
   - image:
-    url: "/assets/images/projects/hng/battle-resources.png"
+    url: "/assets/images/projects/hng/battle-resources.webp"
     alt: "Resources allocated to a battle"
   - image:
-    url: "/assets/images/projects/hng/hq-resources.png"
+    url: "/assets/images/projects/hng/hq-resources.webp"
     alt: "Depleted resources replenished from the HQ"
 
 description:

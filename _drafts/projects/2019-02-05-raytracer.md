@@ -10,7 +10,7 @@ project:
   title: "Raytracer"
   type: "Framework"
   year: "2019"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/redpineapple/logo.webp"
   tech: "C++"
 
 source:
@@ -35,13 +35,13 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
+    url: "/assets/images/projects/redpineapple/devices.webp"
     alt: "Red Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
+    url: "/assets/images/projects/redpineapple/desktop.webp"
     alt: "Red Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
+    url: "/assets/images/projects/redpineapple/mobile.webp"
     alt: "Red Pineapple website on a mobile device"
 
 description:

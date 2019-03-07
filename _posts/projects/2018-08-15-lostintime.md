@@ -10,7 +10,7 @@ project:
   title: "Lost in Time"
   type: "Game"
   year: "2016-2018"
-  logo: "/assets/images/projects/lit/logo2.png"
+  logo: "/assets/images/projects/lit/logo2.webp"
   tech: "Unreal Engine, C++"
 
 videos:
@@ -20,28 +20,28 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/lit/studio-LostInTime-1-lo.png"
+    url: "/assets/images/projects/lit/studio-LostInTime-1-lo.webp"
     alt: "Mixed reality shooting for Lost in Time"
   - image:
-    url: "/assets/images/projects/lit/studio-LostInTime-3.png"
+    url: "/assets/images/projects/lit/studio-LostInTime-3.webp"
     alt: "Mixed reality shooting for Lost in Time"
   - image:
-    url: "/assets/images/projects/lit/WW_driving.jpg"
+    url: "/assets/images/projects/lit/WW_driving.webp"
     alt: "Wild West Driving Mobile Game"
   - image:
-    url: "/assets/images/projects/lit/space-age-driving-2.png"
+    url: "/assets/images/projects/lit/space-age-driving-2.webp"
     alt: "Space Age Driving Mobile Game"
   - image:
-    url: "/assets/images/projects/lit/IceAge_Driving.jpg"
+    url: "/assets/images/projects/lit/IceAge_Driving.webp"
     alt: "Ice Age Driving Mobile Game"
   - image:
-    url: "/assets/images/projects/lit/Jura_driving.jpg"
+    url: "/assets/images/projects/lit/Jura_driving.webp"
     alt: "Jurassic Age Driving Mobile Game"
   - image:
-    url: "/assets/images/projects/lit/Medieval_driving.jpg"
+    url: "/assets/images/projects/lit/Medieval_driving.webp"
     alt: "Medieval Age Driving Mobile Game"
   - image:
-    url: "/assets/images/projects/lit/Roaring20s_driving.jpg"
+    url: "/assets/images/projects/lit/Roaring20s_driving.webp"
     alt: "Roaring 20s Driving Mobile Game"
 
 description:

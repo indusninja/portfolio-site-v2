@@ -10,7 +10,7 @@ project:
   title: "The Gods Must be Crazy"
   type: "Game"
   year: "2011"
-  logo: "/assets/images/projects/godsmustbecrazy/logo.png"
+  logo: "/assets/images/projects/godsmustbecrazy/logo.webp"
   tech: "C#, XNA"
 
 source:
@@ -29,22 +29,22 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/HowToPlay.png"
+    url: "/assets/images/projects/godsmustbecrazy/HowToPlay.webp"
     alt: "How to play"
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/L2_targetting.png"
+    url: "/assets/images/projects/godsmustbecrazy/L2_targetting.webp"
     alt: "Target a meteor from an asteroid field"
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/L3_shipescape.png"
+    url: "/assets/images/projects/godsmustbecrazy/L3_shipescape.webp"
     alt: "Complex galaxies"
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/L4_explosion.png"
+    url: "/assets/images/projects/godsmustbecrazy/L4_explosion.webp"
     alt: "Life of planets and which planets are dead"
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/L1_targetting.png"
+    url: "/assets/images/projects/godsmustbecrazy/L1_targetting.webp"
     alt: "The longer the targeting is, the faster asteroids shoot out"
   - image:
-    url: "/assets/images/projects/godsmustbecrazy/WinScreen.png"
+    url: "/assets/images/projects/godsmustbecrazy/WinScreen.webp"
     alt: "Flying spaghetti monster wins!"
 
 description:
