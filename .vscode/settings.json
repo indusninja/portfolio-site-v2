@@ -6,5 +6,16 @@
         "latex",
         "plaintext",
         "markdown"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#622e30",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#40823d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#3f1e1f",
+        "titleBar.inactiveBackground": "#3f1e1f99",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
 }
