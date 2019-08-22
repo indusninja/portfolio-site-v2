@@ -10,7 +10,7 @@ project:
   title: "Snowball Fight"
   type: "Game"
   year: "2009"
-  logo: "/assets/images/projects/snowballfight/logo.webp"
+  logo: "/assets/images/projects/snowballfight/logo"
   tech: "Unreal Engine, UnrealScript"
 
 source:
@@ -32,19 +32,19 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/snowballfight/15-14-19-04.webp"
+    url: "/assets/images/projects/snowballfight/15-14-19-04"
     alt: "Build destructible snow walls"
   - image:
-    url: "/assets/images/projects/snowballfight/15-15-45-43.webp"
+    url: "/assets/images/projects/snowballfight/15-15-45-43"
     alt: "Capture the flag game mode"
   - image:
-    url: "/assets/images/projects/snowballfight/15-16-04-22.webp"
+    url: "/assets/images/projects/snowballfight/15-16-04-22"
     alt: "Player movement depends on staying warm enough, get too cold - then drink cocoa to get warm"
   - image:
-    url: "/assets/images/projects/snowballfight/15-17-00-31.webp"
+    url: "/assets/images/projects/snowballfight/15-17-00-31"
     alt: "Level designed over a frozen lake"
   - image:
-    url: "/assets/images/projects/snowballfight/15-13-12-82.webp"
+    url: "/assets/images/projects/snowballfight/15-13-12-82"
     alt: "Cel-shaded graphic style"
 
 description:

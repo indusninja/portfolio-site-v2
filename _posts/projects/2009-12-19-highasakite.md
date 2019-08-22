@@ -10,7 +10,7 @@ project:
   title: "High as a Kite"
   type: "Game"
   year: "2009"
-  logo: "/assets/images/projects/kite/logo.webp"
+  logo: "/assets/images/projects/kite/logo"
   tech: "C#, XNA, Wiimote"
 
 source:
@@ -35,16 +35,16 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/kite/kite_cover.webp"
+    url: "/assets/images/projects/kite/kite_cover"
     alt: "Title Image"
   - image:
-    url: "/assets/images/projects/kite/kite_ground.webp"
+    url: "/assets/images/projects/kite/kite_ground"
     alt: "Start from close to the ground and let that kite soar"
   - image:
-    url: "/assets/images/projects/kite/kite_top.webp"
+    url: "/assets/images/projects/kite/kite_top"
     alt: "higher the kite goes, darker the background gets"
   - image:
-    url: "/assets/images/projects/kite/kite_instructions.webp"
+    url: "/assets/images/projects/kite/kite_instructions"
     alt: "Instructions to play"
 
 description:

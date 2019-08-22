@@ -10,7 +10,7 @@ project:
   title: "Don't Panic"
   type: "Game"
   year: "2012"
-  logo: "/assets/images/projects/dontpanic/logo.webp"
+  logo: "/assets/images/projects/dontpanic/logo"
   tech: "C#, Unity 3D"
 
 source:
@@ -35,16 +35,16 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/dontpanic/shot3.webp"
+    url: "/assets/images/projects/dontpanic/shot3"
     alt: "Prototyping gameplay"
   - image:
-    url: "/assets/images/projects/dontpanic/shot2.webp"
+    url: "/assets/images/projects/dontpanic/shot2"
     alt: "Co-operative play, each player must help the other to progress"
   - image:
-    url: "/assets/images/projects/dontpanic/shot1.webp"
+    url: "/assets/images/projects/dontpanic/shot1"
     alt: "Platformer level design"
   - image:
-    url: "/assets/images/projects/dontpanic/title.webp"
+    url: "/assets/images/projects/dontpanic/title"
     alt: "Title Screen"
 
 description:

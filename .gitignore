@@ -10,7 +10,6 @@ Thumbs.db
 # Compilation
 .sass-cache/
 _site/**/*.*
-!_site/assets/images/**/*.webp
 Gemfile.lock
 
 # Logs and db's

@@ -70,7 +70,11 @@
 						{% endfor %}
 						{% for image in page.images %}
 						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							<picture>
+								<source srcset="{{ image.url | prepend: site.baseurl | append: '.webp' }}" type="image/webp">
+								<source srcset="{{ image.url | prepend: site.baseurl | append: '.jpg' }}" type="image/jpeg">
+								<img src="{{ image.url | prepend: site.baseurl | append: '.jpg' }}" alt="{{ image.alt }}">
+							</picture>
 						</li>
 						{% endfor %}
 					</ul>

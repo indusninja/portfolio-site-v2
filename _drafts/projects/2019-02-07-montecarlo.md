@@ -10,7 +10,7 @@ project:
   title: "Monte Carlo Methods"
   type: "Simulation"
   year: "2019"
-  logo: "/assets/images/projects/redpineapple/logo.webp"
+  logo: "/assets/images/projects/redpineapple/logo"
   tech: "C++, C#, OpenGL"
 
 source:
@@ -29,13 +29,13 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.webp"
+    url: "/assets/images/projects/redpineapple/devices"
     alt: "Red Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.webp"
+    url: "/assets/images/projects/redpineapple/desktop"
     alt: "Red Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.webp"
+    url: "/assets/images/projects/redpineapple/mobile"
     alt: "Red Pineapple website on a mobile device"
 
 description:
