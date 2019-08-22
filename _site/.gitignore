@@ -1,0 +1,5 @@
+# this directory exists to speed up the build and publish steps
+# with caches webp files, build does not have to re-generate them each time
+/**/*.*
+!.gitignore
+!**/*.webp

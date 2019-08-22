@@ -9,7 +9,6 @@ Thumbs.db
 
 # Compilation
 .sass-cache/
-_site/**/*.*
 Gemfile.lock
 
 # Logs and db's
