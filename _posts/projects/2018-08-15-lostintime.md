@@ -15,8 +15,8 @@ project:
 
 videos:
   - video:
-    url: "https://www.youtube.com/watch?v=O-84piSTkyY"
-    alt: "Studio gameplay & composite video"
+    url: "https://www.youtube.com/watch?v=GO_Q2pozcsM"
+    alt: "Lost in Time, a TV show with mixed reality gameplay where contestants interact with physical props in a green room and the environment is mapped to it"
 
 images:
   - image:
