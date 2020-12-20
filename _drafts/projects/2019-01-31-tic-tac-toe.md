@@ -4,18 +4,18 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "python, stocks, equity, stock, jupyter, analysis, data"
+  keywords: "tic-tac-toe, tictactoe, tic, tac, toe"
 
 project:
-  title: "Stocks - Data and Analysis"
-  type: "Tool"
-  year: "2020"
+  title: "Tic-Tac-Toe"
+  type: "Game"
+  year: "2019"
   logo: "/assets/images/projects/redpineapple/logo"
-  tech: "Python"
+  tech: "react, typescript"
 
 source:
-  provider: "Github - Stocks"
-  url: "https://github.com/indusninja/stocks"
+  provider: "Github - Tic-Tac-Toe"
+  url: "https://github.com/indusninja/playground-js/tree/master/tic-tac-toe"
 
 releases:
   - release:
@@ -39,7 +39,7 @@ images:
     alt: "Red Pineapple website on a mobile device"
 
 description:
-  content: "<p>Some coherent job that is done using financial data by an analysis tool. An exercise in architecture - data scraping, event streaming, projections, kubernetes, etc.</p>"
+  content: "<p>A webapp for playing tic-tac-toe</p>"
 
 challenge:
   content: "<p></p>"

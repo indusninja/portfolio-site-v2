@@ -4,18 +4,18 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "python, stocks, equity, stock, jupyter, analysis, data"
+  keywords: "bookmark, bookmarks, organize, ai, ml"
 
 project:
-  title: "Stocks - Data and Analysis"
+  title: "Bookmarks organizer"
   type: "Tool"
-  year: "2020"
+  year: "2019"
   logo: "/assets/images/projects/redpineapple/logo"
-  tech: "Python"
+  tech: "ml.net"
 
 source:
-  provider: "Github - Stocks"
-  url: "https://github.com/indusninja/stocks"
+  provider: "Github - Chrome Bookmark Plugin"
+  url: "https://github.com/indusninja/playground-js/tree/master/chrome-bookmarks-plugin"
 
 releases:
   - release:
@@ -39,7 +39,7 @@ images:
     alt: "Red Pineapple website on a mobile device"
 
 description:
-  content: "<p>Some coherent job that is done using financial data by an analysis tool. An exercise in architecture - data scraping, event streaming, projections, kubernetes, etc.</p>"
+  content: "<p>A bookmark organizer that automagically organizes bookmarks into categories.</p>"
 
 challenge:
   content: "<p></p>"
