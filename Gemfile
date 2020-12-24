@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-sitemap"
   gem "jekyll-webp"
+  gem "kramdown-parser-gfm"
 end
