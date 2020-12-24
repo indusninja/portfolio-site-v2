@@ -9,15 +9,11 @@ Thumbs.db
 
 # Compilation
 .sass-cache/
+vendor/
 Gemfile.lock
+.jekyll-cache/
 
 # Logs and db's
 *.log
 *.sql
 *.sqlite
-
-# terraform
-.terraform/
-*.tfout
-*.tfstate*
-dev.aws.tfvars

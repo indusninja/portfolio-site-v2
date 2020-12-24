@@ -1,6 +1,0 @@
-region = "eu-west-1"
-domain = "shader.works"
-domainAlias = "shader_works"
-subdomain = "www.shader.works"
-subdomainAlias = "www_shader_works"
-cdnSubDomain = "cdn.shader.works"
