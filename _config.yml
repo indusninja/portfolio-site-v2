@@ -54,10 +54,26 @@ webp:
 
   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
   # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
-  img_dir: ["/assets/images/projects"]
+  img_dir: ["/assets/images/projects/aquapineapple",
+            "/assets/images/projects/gnome",
+            "/assets/images/projects/hng",
+            "/assets/images/projects/ludo",
+            "/assets/images/projects/redpineapple",
+            "/assets/images/projects/staygooddog",
+            "/assets/images/projects/carioca",
+            "/assets/images/projects/godsmustbecrazy",
+            "/assets/images/projects/kite",
+            "/assets/images/projects/monkeys",
+            "/assets/images/projects/sc-bw",
+            "/assets/images/projects/yellowpineapple",
+            "/assets/images/projects/dontpanic",
+            "/assets/images/projects/greenpineapple",
+            "/assets/images/projects/lit",
+            "/assets/images/projects/playingcards",
+            "/assets/images/projects/snowballfight"]
 
   # Whether to search in nested directories or not
-  nested: true
+  nested: false
 
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
