@@ -26,13 +26,13 @@ sass:
 # plugins
 plugins:
   - jekyll-youtube
-  - jekyll-analytics
+  - jekyll-rushed-analytics
   - jekyll-email-protect
   - jekyll-sitemap
   - jekyll-webp
 
 # google analytics information
-jekyll_analytics:
+jekyll-rushed-analytics:
   GoogleAnalytics:
     id: G-DMJSD3B73V
     anonymizeIp: true
