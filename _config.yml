@@ -34,7 +34,7 @@ plugins:
 # google analytics information
 jekyll_analytics:
   GoogleAnalytics:
-    id: UA-27962903-2
+    id: G-DMJSD3B73V
     anonymizeIp: true
 
 exclude:
