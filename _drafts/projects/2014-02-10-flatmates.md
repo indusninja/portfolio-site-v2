@@ -15,16 +15,16 @@ project:
 
 source:
   provider: "Github - Flatmates"
-  url: "https://github.com/indusninja"
+  url: "https://github.com/indusninja/flatmates"
 
 releases:
   - release:
-    title: "Windows Binary (XX MB)"
-    url: "https://github.com/indusninja"
+    title: "Windows Binary (15 MB)"
+    url: "https://github.com/indusninja/flatmates/releases/download/v1.0/WhatsMineIsNotYours-win-x86-64.zip"
 
 videos:
   - video:
-    url: "https://www.youtube.com/watch?v=IhSyWZQzmTE"
+    url: "https://www.youtube.com/watch?v=XXXXXXXX"
     alt: "Gameplay video"
 
 images:
